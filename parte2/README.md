@@ -111,6 +111,7 @@ La suite actual valida la funcionalidad clave del **formulario de contacto**, cu
 
 #### Diagrama 1: Flujo de Envío Exitoso 
 ```mermaid
+    graph TD
     A[Inicio] --> B{Navegar a la página de inicio};
     B --> C{Ir a la sección de Contacto};
     C --> D{Rellenar formulario con datos válidos}(Validación: Verificar que la URL es la correcta),(Validación: Verificar que el título de la página es el esperado), ;
@@ -122,6 +123,7 @@ La suite actual valida la funcionalidad clave del **formulario de contacto**, cu
 #### Diagrama 2: Flujo de Validación de Campos Obligatorios
 
 ```mermaid
+    graph TD
     A[Inicio] --> B{Navegar a la página de inicio};
     B --> C{Ir a la sección de Contacto};
     C --> D{Rellenar formulario dejando un campo obligatorio vacío};
